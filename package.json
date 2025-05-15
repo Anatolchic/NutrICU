@@ -3,10 +3,10 @@
   "main": "expo-router/entry",
   "version": "1.0.0",
   "scripts": {
-    "start": "expo start --tunnel",
-    "start-web": "expo start --web --tunnel",
-    "start-web-dev": "DEBUG=expo* expo start --web --tunnel",
-    "dev": "expo start --tunnel"
+    "start": "npx expo start --tunnel",
+    "start-web": "npx expo start --web --tunnel",
+    "start-web-dev": "DEBUG=expo* npx expo start --web --tunnel",
+    "dev": "npx expo start --tunnel"
   },
   "dependencies": {
     "@expo/vector-icons": "^14.1.0",
@@ -39,8 +39,8 @@
     "hono": "^4.7.9",
     "lucide-react-native": "^0.475.0",
     "nativewind": "^4.1.23",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-native": "0.79.1",
     "react-native-gesture-handler": "~2.24.0",
     "react-native-safe-area-context": "5.3.0",
